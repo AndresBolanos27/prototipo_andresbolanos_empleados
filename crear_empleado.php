@@ -45,7 +45,6 @@ try {
 <head>
     <meta charset="UTF-8">
     <title>Crear Empleado</title>
-    <!-- Incluye aquí el CSS necesario (Bootstrap) -->
     <link href="./Recursos/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
@@ -154,7 +153,6 @@ try {
     <!-- jQuery y jQuery Validate -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
-    <!-- Incluye aquí los scripts necesarios de Bootstrap -->
     <script src="./Recursos/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./Recursos//js/validacion.js"></script>
 

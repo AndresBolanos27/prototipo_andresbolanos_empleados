@@ -14,7 +14,7 @@ class Conexion {
             $this->conn->exec("set names utf8");
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // Establecer modo de error de PDO a excepción
         } catch (PDOException $exception) {
-            // Loguear el error de conexión para fines de depuración (opcional)
+            // Loguear el error de conexión para fines de depuración
             error_log("Error de conexión a la base de datos: " . $exception->getMessage());
 
             // Mostrar una alerta genérica

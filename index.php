@@ -15,7 +15,6 @@ if (isset($_GET['action']) && $_GET['action'] == 'eliminar' && $_SERVER['REQUEST
     }
 }
 
-// Obtener la conexión utilizando el método público
 $conn = $empleado->getConexion();
 
 // Consulta para obtener los datos de los empleados junto con sus áreas
@@ -35,7 +34,6 @@ $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <title>Crear Empleado</title>
-    <!-- Incluye aquí el CSS necesario (Bootstrap) -->
     <link href="./Recursos/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -90,7 +88,6 @@ $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </table>
 </div>
 
-<!-- Incluye aquí los scripts necesarios de Bootstrap y FontAwesome -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
